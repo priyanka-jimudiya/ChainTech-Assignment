@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Fonts/Poppins-Black.woff2') format('woff2'),
+        url('./Fonts/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav {
+    margin-left: 190px;
+}
+
+.nav-link {
+    margin-right: 35px;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.welcome {
+    background-color: black;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 0;
+}
+
+.welcome h1 {
+    font-size: 68px;
+}
+
+.welcome p {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 150px;
+}
+
+.welcome .btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.welcome .btn img {
+    margin-left: 15px;
+}
+
+.services {
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.services .col-8 h1 {
+    font-size: 50px;
+}
+
+.services .col-8 p {
+    font-size: 15px;
+}
+
+.services .col {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.services .join {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.services .join .img1 {
+    background-color: black;
+    padding: 5px 0 5px 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.services .join .img2 {
+    background-color: black;
+    padding: 5px 5px 5px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.services .join p {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.services .blockChain {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.services .blockChain h6 {
+    font-size: 23px;
+    padding-top: 30px;
+}
+
+
+.services .btn {
+    float: right;
+    margin: 7px 5px 10px 0;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: black;
+    padding: 60px 0 45px;
+    text-align: center;
+}
+
+.footer img {
+    margin-bottom: 40px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #98A6AC;
+    margin-top: 30px;
+}
+
+.footer hr {
+    border: 1px solid #5E5E5E;
+}
